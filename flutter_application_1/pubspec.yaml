@@ -1,0 +1,47 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Geolocator: for accessing location
+  geolocator: ^9.0.1  # Ensure to use the correct latest version
+
+  # HTTP: for making HTTP requests to your Spring Boot API
+  http: ^1.2.2  # Or the latest version you prefer
+
+  # CupertinoIcons for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Audioplayers: for playing audio (Police siren)
+  audioplayers: ^6.1.0  
+  
+  flutter_sound: ^9.0.0 # Check for the latest version on pub.dev
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Flutter Lints for better coding practices
+  flutter_lints: ^4.0.0
+
+# Flutter settings
+flutter:
+
+  # Enables Material Design for the app
+  uses-material-design: true
+
+  # Declare the assets folder for the police siren sound file
+  assets:
+    - assets/
